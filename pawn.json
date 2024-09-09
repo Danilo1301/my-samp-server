@@ -1,0 +1,17 @@
+{
+	"user": "Danilo1301",
+	"repo": "server",
+	"tag": "0.0.1",
+	"entry": "gamemode.pwn",
+	"output": "gamemodes/gamemode.amx",
+	"dependencies": [
+		"pawn-lang/samp-stdlib"
+	],
+	"local": true,
+	"runtime": {
+		"gamemodes": ["rivershell"],
+		"plugins": ["sampvoice.dll"],
+		"rcon_password": "test",
+		"port": 7777
+	}
+}
