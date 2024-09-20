@@ -1,17 +1,26 @@
 {
 	"user": "Danilo1301",
 	"repo": "server",
-	"tag": "0.0.1",
-	"entry": "gamemode.pwn",
+	"entry": "server/gamemode.pwn",
 	"output": "gamemodes/gamemode.amx",
 	"dependencies": [
-		"pawn-lang/samp-stdlib"
+		"pawn-lang/samp-stdlib",
+		"Y-Less/sscanf:v2.13.8"
 	],
 	"local": true,
 	"runtime": {
-		"gamemodes": ["rivershell"],
-		"plugins": ["sampvoice.dll"],
+		"version": "0.3.7",
+		"mode": "server",
+		"gamemodes": [
+			"rivershell"
+		],
+		"plugins": [
+			"sampvoice.dll"
+		],
 		"rcon_password": "test",
-		"port": 7777
+		"port": 7777,
+		"hostname": "SA-MP Server",
+		"maxplayers": 50,
+		"language": ""
 	}
 }
